@@ -1,0 +1,8 @@
+{
+    "trend_ma": 50,
+    "atr_window": 14,
+    "fast_ma": 20,
+    "slow_ma": 50,
+    "rsi_window": 14,
+    "range_window": 20
+}
