@@ -2,7 +2,7 @@ from engine.strategies.trend_strategy import trend_strategy
 from engine.strategies.mean_reversion import mean_reversion
 from engine.strategies.volatility_breakout import volatility_breakout
 from engine.strategies.range_play import range_play
-#
+
 def apply_strategy(df, config):
 
     trend_sig = trend_strategy(df, config)
