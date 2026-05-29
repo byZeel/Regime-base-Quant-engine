@@ -8,7 +8,7 @@ from engine.executor.trade_executor import execute_trades
 # Load Config
 with open("configs/engine.json") as f:
     config = json.load(f)
-
+*
 # Load Data
 df = load_data("data/ohlc_clean.csv")
 
