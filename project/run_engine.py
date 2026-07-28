@@ -4,7 +4,7 @@ from engine.utils.indicators import add_ma, add_atr, add_rsi
 from engine.regimes.regime_detector import detect_regime
 from engine.executor.strategy_switch import apply_strategy
 from engine.executor.trade_executor import execute_trades
-
+#
 # Load Config
 with open("configs/engine.json") as f:
     config = json.load(f)
